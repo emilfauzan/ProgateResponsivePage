@@ -1,0 +1,57 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica";
+}
+
+.section-title {
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.contact-form {
+  padding-top: 100px;
+  text-align: center;
+  background-color: #161616;
+  color: #FFFFFF;
+}
+
+input, textarea {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: #434343;
+}
+
+.btn-message {
+  background-color: #434343;
+  color: #889eab;
+  font-weight: 700;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.message {
+  padding: 15px 40px;
+  cursor: pointer;
+  background-color:#434343;
+  box-shadow: 0 7px #353434;
+}
