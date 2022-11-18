@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  html {
+      scroll-behavior: smooth;
+    }
+    
+  body {
+      margin: 0;
+      font-family: "Lucida Grande";
+    }
+  
+  header {
+      height: 65px;
+      width: 100%;
+      background-color:#161616e4;
+      position: fixed;
+      top: 0;
+      z-index: 10;    
+      transition: all 0.5s;
+    
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .header-left {
+      float: left;
+  }
+  header:hover {
+      background-color: #aa1b1b;
+      color: black;
+  }
+  
+  .header-right {
+      float: right;
+      transition: all 0.5s;
+  }
+  
+  .header-right a {
+      float: right;
+      line-height: 65px;
+      padding: 0 25px;
+      color: white;
+      display: block;
+      transition: all 0.42s;
+      font-weight: bold;
+  }
+  .header-right .menu-icon {
+      float: right;
+      line-height: 65px;
+      padding: 0 5px;
+      color: white;
+      display: none;
+      transition: all 0.42s;
+      font-weight: bold;
+  }
+  .header-right .menu-icon:hover {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+  }
+  .header-right .menu-icon:active {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+  }
+  .header-right .contact:hover {
+      background-color: #ffffff;
+      color: black;
+  }
+  .header-right .contact:active {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+  }
+  .header-right .product:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  .header-right .product:active {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+  }
+  .header-right .about:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  .header-right .about:active {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+  }
+  .header-right .home:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  .header-right .home:active {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+  }
+  
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+  
+
+  /* hero */
+
+.top-hero{
+       width: 100%; 
+       height: 100vh;
+       background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6))  ,url("./img/image2.jpg");
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-attachment: fixed; 
+  }
+
+.top-hero .hero{
+    padding: 110px 0 50px 50px;
+    float: left;
+    /* justify-content: center; */
+  }
+
+ .top-hero .hero h1 {
+    opacity: 0.7;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+ .top-hero .hero p{
+    opacity: 0.7;
+    color: white;
+    font-size: 20px;
+  }
+
+  
